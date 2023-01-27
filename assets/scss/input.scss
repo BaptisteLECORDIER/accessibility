@@ -1,0 +1,72 @@
+// Base
+@import './ressources/base/reset.scss';
+
+// Variables
+@import './ressources/variables/colors.scss';
+@import './ressources/variables/percents.scss';
+@import './ressources/variables/sizes.scss';
+@import './ressources/variables/text_colors.scss';
+@import './ressources/variables/text.scss';
+
+// Layout
+@import './ressources/layout/align-items.scss';
+@import './ressources/layout/display.scss';
+
+// Modules
+
+
+
+// State
+@import './ressources/state/button.scss';
+@import './ressources/state/img.scss';
+@import './ressources/state/no-style.scss';
+@import './ressources/state/search_bar.scss';
+
+// Themes
+@import './ressources/themes/background.scss';
+@import './ressources/themes/border.scss';
+@import './ressources/themes/box-shadow.scss';
+@import './ressources/themes/breakpoint.scss';
+@import './ressources/themes/margin.scss';
+@import './ressources/themes/opacity.scss';
+@import './ressources/themes/padding.scss';
+@import './ressources/themes/sizes.scss';
+@import './ressources/themes/text.scss';
+
+.sect_1 {
+    background-image: url(../img/7840-concerts-de-patrick-bruel-a-paris-la-def-orig-2.jpg);
+    height: 550px;
+    background-size: contain;
+    background-attachment: fixed;
+    
+}
+
+.sect_2 {
+    background-color: rgb(10, 10, 10);
+    height: 100px;
+}
+
+.sect_3 {
+    background-color: rgb(228, 228, 228);
+    height: 700px;
+}
+
+.sect_4 {
+    background-color: rgb(255, 0, 34);
+    height: 700px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+}
+
+.navbar-opacity {
+    background-color: rgba($color: #000000, $alpha: 0.35);
+}
+
+.img-prez {
+    box-shadow: #e210de 10px 10px 0px;
+}
+
